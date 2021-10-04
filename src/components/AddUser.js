@@ -22,7 +22,7 @@ class AddUser extends React.Component {
     const newUser = {
       id: Math.floor(Math.random() * (1000000 - 4 + 1) + 4),
       name: name,
-      email: email
+      email: email,
     };
     addUser(newUser);
     e.preventDefault();
